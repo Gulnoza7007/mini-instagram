@@ -1,5 +1,10 @@
 {
     "name": "mini-instagramm",
     "private": "true",
-    "type": "module"
+    "type": "module",
+    "scripts":{
+        "dev:api": "pnpm --filter @mini-instagramm/api dev",
+        "build:api": "pnpm --filter @mini-instagramm/api build",
+        "start:api": "pnpm --filter @mini-instagramm/api start"
+    }
 }
